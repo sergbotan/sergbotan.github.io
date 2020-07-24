@@ -1,0 +1,10 @@
+/* styles.scss */
+body {
+  background: lightblue; }
+
+.test {
+  width: 20%;
+  background: green; }
+
+p {
+  color: navy; }
