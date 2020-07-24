@@ -1,10 +1,12 @@
-/* styles.scss */
 body {
-  background: lightblue; }
+  background: lightblue;
+}
 
 .test {
   width: 20%;
-  background: green; }
+  background: green;
+}
 
 p {
-  color: navy; }
+  color: navy;
+}
