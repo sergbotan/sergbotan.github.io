@@ -1,0 +1,78 @@
+{
+"html":
+	{
+	"abbreviations":
+		{
+		"!": "html:5",
+		"!!!": "{<!DOCTYPE html>}",
+		"!|html:5": "!!!+doc",
+		"a:blank": "a[href='http://${0}' target='_blank' rel='noopener noreferrer']",
+		"a:link": "a[href='http://${0}']",
+		"a:links": "a[href='https://${0}']",
+		"a:mail": "a[href='mailto:${0}']",
+		"a:tel": "a[href='tel:+${0}']",
+		"abbr": "<abbr title=\"\">",
+		"acr|acronym": "<acronym title=\"\">",
+		"bdo:l": "bdo[dir=ltr]",
+		"bdo:r": "bdo[dir=rtl]",
+		"doc": "html[lang=${lang}]>(head>meta[charset=${charset}]+meta:vp+title{${1:Document}})+body",
+		"meta:desc": "meta[name=description content]",
+		"meta:edge": "meta:compat[content='${1:ie=edge}']",
+		"meta:kw": "meta[name=keywords content]",
+		"meta:redirect": "meta[http-equiv=refresh content='0; url=${1:http://example.com}']",
+		"img:z": "img[sizes srcset src alt]",
+		"src:t|source:type": "source[srcset type='${1:image/}']",
+		"!doc": "html[lang=${lang}]>(head>meta[charset=${charset}]+meta:vp+title{${1:Document}})+body"
+		},
+	
+		"variables":
+		{
+		"charset": "UTF-8",
+		"indentation": "\t",
+		"lang": "en",
+		"locale": "en-US",
+		"newline": "\n"
+		}
+	},
+
+"css":
+    {
+	"bq": "blockquote",
+	"fig": "figure",
+	"figc": "figcaption",
+	"pic": "picture",
+	"ifr": "iframe",
+	"emb": "embed",
+	"obj": "object",
+	"cap": "caption",
+	"colg": "colgroup",
+	"fst": "fieldset",
+	"btn": "button",
+	"optg": "optgroup",
+	"tarea": "textarea",
+	"leg": "legend",
+	"sect": "section",
+	"art": "article",
+	"hdr": "header",
+	"ftr": "footer",
+	"adr": "address",
+	"dlg": "dialog",
+	"str": "strong",
+	"prog": "progress",
+	"mn": "main",
+	"tem": "template",
+	"fset": "fieldset",
+	"datag": "datagrid",
+	"datal": "datalist",
+	"kg": "keygen",
+	"out": "output",
+	"det": "details",
+	"sum": "summary",
+	"cmd": "command",
+    "xyz": "my_custom_abbr",
+	"ri:d|ri:dpr": "img:s",
+	"ri:v|ri:viewport": "img:z",
+	"ri:a|ri:art": "pic>src:m+img",
+	"ri:t|ri:type": "pic>src:t+img"
+    }
+}
